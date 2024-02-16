@@ -1,0 +1,32 @@
+[
+    {
+        "name": "East Coast Ski Resorts",
+        "locations": [{
+            "name": "Killington",
+            "lat": 43.6094,
+            "lon": 72.7968
+        },
+        {
+            "name": "Sugarbush Resort",
+            "lat": 44.1362,
+            "lon": 72.9079
+        },
+        {
+            "name": "Hunter Mountain",
+            "lat": 42.1779,
+            "lon": 74.2304
+        }],
+        "duration": 3,
+        "snowIntencity": 0.5
+    },
+    {
+        "name": "West Coast Ski Resorts",
+        "locations": [{
+            "name": "Palisades Tahoe",
+            "lat": 39.1906,
+            "lon": 120.2484
+        }],
+        "duration": 2,
+        "snowIntencity": 1
+    }
+]
