@@ -2,5 +2,4 @@ import cron from 'node-cron'
 import { processAllWatchlists } from './jobs';
 
 // Every hour:
-// 0 * * * *
-cron.schedule('* * * * *', processAllWatchlists)
+cron.schedule('0 * * * *', processAllWatchlists)
