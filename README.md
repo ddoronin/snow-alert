@@ -27,6 +27,16 @@ To run unit tests:
 yarn test
 ```
 
+## Deployment
+
+The web service is deployed on render under this url:
+
+https://snow-alert.onrender.com/health
+
+The webhook endpoint URL for Slack:
+
+https://snow-alert.onrender.com/webhooks/slack
+
 ## Other projects
 
 1. YAWC - debuggin tool for websockets
