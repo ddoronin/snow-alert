@@ -1,9 +1,8 @@
 import queryString from "querystring";
 import type { Forecast } from "./types";
 
-// TODO: read from env vars
-const baseUrl = 'https://api.tomorrow.io/';
-export const apiKey = '1CoMZlPO4Wf7aH1FWUPe3R8YaDtsZ5Wt';
+const baseUrl = process.env.WEATHER_UNDERGROUND_URL;
+export const apiKey = process.env.WEATHER_UNDERGROUND_API_KEY;
 
 export async function forecast(lat: number, lon: number) {
     try {
