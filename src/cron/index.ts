@@ -1,5 +1,5 @@
 import cron from 'node-cron'
 import { processAllWatchlists } from './jobs';
 
-// Every hour:
-cron.schedule('0 * * * *', processAllWatchlists)
+// Every minute
+cron.schedule('* * * * *', processAllWatchlists)
